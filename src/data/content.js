@@ -1,11 +1,11 @@
 export const profile = {
-  name: "Wrimo Das",
+  name: "Writwik Das",
   role: "Data Scientist",
   tagline: "Turning messy data into useful stories.",
   summary: "Data scientist with a love for probability, rigorous experimentation, and human-centered design. I build end-to-end analytics and ML that actually ship.",
-  email: "wrimo@example.com",
-  phone: "+91-9000000000",
-  location: "Chennai, India",
+  email: "wdas14759@gmail.com",
+  phone: "+91-8967806984",
+  location: "Kolkata, India",
   avatar: "/src/assets/avatar.png",
   social: [
     {label:'GitHub', href:'https://github.com/your-handle'},
