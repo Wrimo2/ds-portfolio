@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Das;Wrimo;;;
+FN:Wrimo Das
+TITLE:Data Scientist
+ORG:Wrimo Analytics
+EMAIL;TYPE=INTERNET:wrimo@example.com
+TEL;TYPE=CELL:+91-9000000000
+URL:https://your-portfolio-domain.example
+ADR;TYPE=WORK:;;IIT Madras;Chennai;TN;600036;India
+NOTE:Download and add me to your contacts.
+END:VCARD

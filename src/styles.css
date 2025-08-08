@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+.container-prose { @apply max-w-6xl mx-auto px-4; }
+.card { @apply bg-white/70 dark:bg-slate-900/70 backdrop-blur shadow-soft rounded-2xl border border-slate-200/40 dark:border-slate-800/60; }
+.section { @apply container-prose py-20 sm:py-24; }
+.section-title { @apply text-3xl sm:text-4xl font-semibold tracking-tight; }
+.muted { @apply text-slate-600 dark:text-slate-300; }
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition;
+  @apply bg-slate-900 text-white dark:bg-white dark:text-slate-900;
+}
+.btn:hover { @apply scale-[1.02]; }
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium transition;
+  @apply bg-white text-slate-900 border border-slate-200 dark:bg-slate-900 dark:text-white dark:border-slate-800;
+}
+.gradient-ring {
+  background: linear-gradient(90deg,#10b98133,#3b82f633,#ec489933);
+  filter: blur(40px);
+}
+.hero-gradient {
+  background: linear-gradient(120deg,#0ea5e9,#10b981,#6366f1,#ec4899);
+  background-size: 400% 400%;
+  animation: shimmer 18s linear infinite;
+}
+/* Masonry grid using CSS columns */
+.masonry { column-count: 1; column-gap: 1rem; }
+@media (min-width: 640px) { .masonry { column-count: 2; } }
+@media (min-width: 1024px) { .masonry { column-count: 3; } }
+.masonry-item { break-inside: avoid; margin-bottom: 1rem; }
