@@ -32,8 +32,7 @@ export default function Hero(){
               <span className="block text-sky-600 dark:text-sky-400">Aspiring Data Scientist</span>
             </h1>
             <p className="mt-5 max-w-xl text-lg text-slate-600 dark:text-slate-300">
-              {profile.tagline} I build end-to-end analytics and ML that ship—clear,
-              reliable, and explainable.
+              {profile.tagline} Transforming complex data into actionable insights and driving business decisions through advanced analytics.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a href="#projects" className="btn">See Projects</a>
