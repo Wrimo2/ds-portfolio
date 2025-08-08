@@ -21,6 +21,35 @@ export const milestones = [
   { year: "2023", title: "Launched Hanging Bulb 2.0", detail: "Grew to 28k followers; built a data-driven content calendar." },
 ]
 
+// BEGIN ADD (content.js)
+export const journey = [
+  {
+    date: "2025",
+    title: "Diploma level — IIT Madras (DS)",
+    blurb: "Deep dive into statistics, Python, ML foundations. Built several mini-projects.",
+    tags: ["Python", "Stats", "ML"]
+  },
+  {
+    date: "2024",
+    title: "TCS — Business Process Associate",
+    blurb: "Automated reporting; reduced weekly manual work by 6 hrs with Python + Excel.",
+    tags: ["Automation", "Ops", "Excel"]
+  },
+  {
+    date: "2023",
+    title: "Hanging Bulb 2.0",
+    blurb: "Scaled content engine to 28k followers. Data-led calendar and experiments.",
+    tags: ["Content", "Analytics"]
+  },
+  {
+    date: "2022",
+    title: "B.Com (Marketing) — College Topper",
+    blurb: "Crossed over from marketing to analytics. Learned SQL, Sheets, storytelling.",
+    tags: ["Marketing", "SQL"]
+  }
+]
+// END ADD
+
 export const education = [
   { school:"IIT Madras — BS in Data Science", period:"2023 — present",
     details:["Math for DS, Statistics, Python for DS","Projects: menu engineering, customer analytics","Honors: Foundation topper"]},
