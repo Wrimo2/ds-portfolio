@@ -29,7 +29,7 @@ export default function Hero(){
             </p>
             <h1 className="mt-3 text-4xl sm:text-6xl font-bold leading-[1.05] tracking-tight">
               {profile.name}
-              <span className="block text-sky-600 dark:text-sky-400">Data Scientist</span>
+              <span className="block text-sky-600 dark:text-sky-400">Aspiring Data Scientist</span>
             </h1>
             <p className="mt-5 max-w-xl text-lg text-slate-600 dark:text-slate-300">
               {profile.tagline} I build end-to-end analytics and ML that ship—clear,
