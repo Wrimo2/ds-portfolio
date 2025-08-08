@@ -1,4 +1,5 @@
 // REPLACE ALL CONTENTS OF src/App.jsx WITH THIS
+import Journey from './components/Journey'
 import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -46,7 +47,7 @@ export default function App(){
         <TrustedBy />
         <ValueProps />
         <Process />
-
+        <Journey /> 
         {/* Your existing sections */}
         <About />
         <Education />
