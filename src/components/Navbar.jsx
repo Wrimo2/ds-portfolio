@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ThemeToggle from './ThemeToggle'
 
 const links = [
+  {href:'#journey', label:'Journey'},
   {href:'#about', label:'About'},
   {href:'#education', label:'Education'},
   {href:'#experience', label:'Experience'},
